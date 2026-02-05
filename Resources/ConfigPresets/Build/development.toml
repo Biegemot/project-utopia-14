@@ -8,10 +8,10 @@ admin_job_tracking = true
 role_loadout_timers = false
 
 [events]
-enabled = false
+enabled = true
 
 [ghost]
-role_time = 0.5
+role_time = 0.9
 quick_lottery = true
 
 [gateway]
@@ -31,11 +31,11 @@ preload = false
 expedition_cooldown = 30.0
 
 [shuttle]
-grid_fill = false
+grid_fill = true
 auto_call_time = 0
-emergency = false
-arrivals = false
-preload_grids = false
+emergency = true
+arrivals = true
+preload_grids = true
 
 [admin]
 see_own_notes = true
