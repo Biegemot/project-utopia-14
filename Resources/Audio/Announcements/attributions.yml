@@ -10,8 +10,8 @@
 
 - files: ["attention.ogg"]
   license: "CC-BY-SA-3.0"
-  copyright: "Taken from tgstation"
-  source: "https://github.com/tgstation/tgstation/blob/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a/sound/ai/default/attention.ogg"
+  copyright: "Taken from RZD, distorted."
+  source: "https://rzd.ru/"
 
 - files: ["meteors.ogg"]
   license: "CC-BY-SA-3.0"
@@ -25,8 +25,8 @@
 
 - files: ["welcome.ogg"]
   license: "CC-BY-SA-3.0"
-  copyright: "Taken from tgstation"
-  source: "https://github.com/tgstation/tgstation/blob/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a/sound/ai/default/welcome.ogg"
+  copyright: "Made by Rally"
+  source: "Me"
 
 - files: ["announce.ogg"]
   license: "CC-BY-SA-3.0"

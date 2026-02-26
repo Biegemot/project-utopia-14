@@ -319,3 +319,5 @@ Resources/MapImages
 .direnv/
 .github/copilot-instructions.md
 RobustToolbox
+.github/agents/Claude.agent.md
+.gitignore
