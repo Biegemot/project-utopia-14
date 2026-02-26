@@ -8,7 +8,10 @@ admin_job_tracking = true
 role_loadout_timers = false
 
 [events]
-enabled = true
+enabled = false
+
+[rules]
+time = 10.0
 
 [ghost]
 role_time = 0.9
@@ -41,7 +44,12 @@ preload_grids = true
 see_own_notes = true
 new_player_threshold = 120
 
+[hub]
+tags = "lang:ru,rp:high"
+
 [ic]
+flavor_text = true
+punctuation = true
 random_characters = false
 random_species_weights = ""
 ssd_sleep_time = 3600
