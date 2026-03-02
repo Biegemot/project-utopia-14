@@ -116,7 +116,7 @@
   kind: source
   path: "/Textures/Shaders/hologram.swsl"
 
-- type: shader
-  id: GrittyVignette
-  kind: source
-  path: "/Textures/Shaders/gritty_vignette.swsl"
+#- type: shader
+#  id: GrittyVignette
+#  kind: source
+#  path: "/Textures/Shaders/gritty_vignette.swsl"
