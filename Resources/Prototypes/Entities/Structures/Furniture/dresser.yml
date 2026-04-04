@@ -31,8 +31,8 @@
         acts: [ "Destruction" ]
   - type: Storage
     grid:
-    - 0,0,6,3
-    maxItemSize: Normal
+    - 0,0,7,4
+    maxItemSize: Large
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -201,7 +201,7 @@
       weight: 0.001
     - id: ClothingUniformJumpsuitNanotrasen
       weight: 0.001
-        # Corvax-Pins-Start
+    # Corvax-Pins-Start
     - id: ClothingNeckAtharaPin
       weight: 0.06
     - id: ClothingNeckCorvaxPin
@@ -217,6 +217,10 @@
     - id: ClothingNeckNovaPin
       weight: 0.06
     - id: ClothingNeckSolarisPin
+      weight: 0.06
+    - id: ClothingNeckLumenPin
+      weight: 0.06
+    - id: ClothingNeckVoidPin
       weight: 0.06
     - id: ClothingNeckWhiteListPin
       weight: 0.06
@@ -308,7 +312,7 @@
       weight: 0.0008
     - id: ClothingOuterDogi
       weight: 0.00001
-    - id: HeadHuman
+    - id: OrganHumanHead
       weight: 0.00001
     - id: OrganHumanKidneys
       weight: 0.00001
