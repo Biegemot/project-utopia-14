@@ -6,7 +6,7 @@
 
 - files: ["barratry.yml"]
   authors: Emogarbage, Scribbles0
- 
+
 - files: ["box.yml"]
   authors: ACJM, Emisse
 
@@ -66,3 +66,6 @@
 
   - files: ["snowball.yml"]
   authors: Spacemann
+
+  - files: ["utopia.yml"]
+  authors: MayHox
