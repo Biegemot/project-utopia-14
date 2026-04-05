@@ -73,8 +73,8 @@
   components:
   - type: GameRule
     delay:
-      min:  20 # Corvax-MRP # 10
-      max:  30 # Corvax-MRP # 20
+      min:  40 # Corvax-MRP # 10
+      max:  60 # Corvax-MRP # 20
 
 - type: entity
   id: BaseStationEventShortDelay
@@ -83,8 +83,8 @@
   components:
   - type: GameRule
     delay:
-      min:  20 # Corvax-MRP # 10
-      max:  30 # Corvax-MRP # 20
+      min:  40 # Corvax-MRP # 10
+      max:  60 # Corvax-MRP # 20
 
 - type: entity
   id: BaseStationEventLongDelay
@@ -93,8 +93,8 @@
   components:
   - type: GameRule
     delay:
-      min:  50 # Corvax-MRP # 40
-      max:  70 # Corvax-MRP # 60
+      min:  100 # Corvax-MRP # 40
+      max:  140 # Corvax-MRP # 60
 
 - type: entity
   id: AnomalySpawn
