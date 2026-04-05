@@ -28,7 +28,6 @@ public sealed class RadioSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
-    [Dependency] private readonly SpeechTTSSystem _tts = default!;
 
     // set used to prevent radio feedback loops.
     private readonly HashSet<string> _messages = new();
@@ -165,15 +164,6 @@ public sealed class RadioSystem : EntitySystem
 
             // send the message
             RaiseLocalEvent(receiver, ref ev);
-        }
-        if (ttsRecipients.Count > 0)
-        {
-            Logger.InfoS("TTS", $"Radio TTS triggered for {ttsRecipients.Count} listeners. Message: '{message}'");
-            _tts.AttemptRadioSpeech(messageSource, message, new List<INetChannel>(ttsRecipients));
-        }
-        else
-        {
-            Logger.InfoS("TTS", $"Radio TTS: No recipients found for message: '{message}'");
         }
 
         if (name != Name(messageSource))
