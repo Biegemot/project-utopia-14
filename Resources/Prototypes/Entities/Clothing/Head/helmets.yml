@@ -61,6 +61,21 @@
     layers:
       Hair: HEAD
 
+#Шлем главы миротворческих сил
+- type: entity
+  parent: [ ClothingHeadHelmetArmoredBase, BaseMajorContraband ]
+  id: ClothingHeadHelmetPeaceLead
+  name: peacekeeper force commander helmet
+  description: The peacekeeping force commander's combat helmet, adorned with a silver engraving of the Utopian emblem.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/peacelead_helmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/peacelead_helmet.rsi
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+
 #SWAT Helmet
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseSecurityContraband]
